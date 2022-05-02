@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="scholarly_style.css">
+    <title>Scholarly HTML</title>
+</head>
+
+<body prefix="schema: http://schema.org" itemscope="" itemtype="http://schema.org/WebPage">
+    <h1>recycleIT - Scholarly </h1>
+    <section typeof="sa:AuthorsList">
+        <h2>Author</h2>
+        <ul>
+            <li typeof="sa:ContributorRole" property="schema:author">
+                <a typeof="schema:Person" href="https://github.com/stefanpogor">
+                    <meta property="schema:givenName" content="Ștefan" />
+                    <meta property="schema:familyName" content="Pogor" />
+                    <span property="schema:name">Ștefan Pogor</span>
+                </a>
+                <ul>
+                    <li property="schema:roleContactPoint" typeof="schema:ContactPoint">
+                        <p>E-mail: pogorstefan@gmail.com</p>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <h2>Content</h2>
+    <ul>
+        <li><a href="#introducere">Introduction</a> </li>
+    </ul>
+    <ul>
+        <li><a href="#scop">1.1 Scope</a></li>
+        <li><a href="#audienta">1.2 Target audience</a></li>
+        <li><a href="#scop-site">1.3 The purpose of the application</a> </li>
+    </ul>
+
+    <ul>
+        <li><a href="#descriere">Description</a> </li>
+    </ul>
+    <ul>
+        <li><a href="#functionalitati-produs">1.1 Functionalities (short)</a></li>
+        <li><a href="#categorii">1.2 Categories of users</a></li>
+        <li><a href="#mediu">1.3 Operating environment</a></li>
+    </ul>
+    <ul>
+        <li><a href="#cerinte-ext">External requirements</a> </li>
+    </ul>
+    <ul>
+        <li><a href="#interfata-utilizator">1.1 User interface</a></li>
+    </ul>
+
+    <ul>
+        <li><a href="#functionalitati">Functionalities</a> </li>
+    </ul>
+    <ul>
+        <li><a href="#conn">1.1 Connect with email</a></li>
+        <li><a href="#earthblogs">1.2 Blogs reading</a></li>
+        <li><a href="#recycle">1.3 Finding out where the user can recycle</a></li>
+        <li><a href="#contact">1.4 Contact form</a></li>
+        <li><a href="#shortpath">1.5 Admin - Finding the most efficient and short path for garbage disposal trucks</a></li>
+    </ul>
+    <ul>
+        <li><a href="#bibliografie">Bibliography</a> </li>
+    </ul>
+
+    <article id="article" typeof="schema:ScholarlyArticle" resource="#">
+        <section typeof="sa:ScholarlyArticle" role="doc-introduction">
+            <h2 id="introducere">Introduction</h2>
+            <h3 id="scop">1.1 Scope</h3>
+            <p>
+                recycleIT is an android application whos purpose is to make users more aware of climate change
+                and the damage every one of us do to the Planet Earth. The app provides to the user blogs about recycling
+                and climate change and ways in which we can decrease our own polution, how to recycle, when and where plus 
+                the garbage disposal trucks will have a way of organazing their routes so that they can be efficient.
+            </p>
+            <h3 id="audienta">1.2 Target audience</h3>
+            <p>
+                This document is destined to anyone who wants to learn how this application works and also anyone who wants 
+                to make a difference in this world and protect our planet.
+            </p>
+            <h3 id="scop-site">1.3 The purpose of the application</h3>
+            <p>
+                The application is meant to help users recycle their trash so they can lower their carbon footprint and to help
+                the municipal garbage disposal authorities to organize their routes in a more efficient way.
+            </p>
+        </section>
+
+        <section typeof="sa:MaterialsAndMethods" role="doc-chapter">
+            <h2 id="descriere">Description</h2>
+            <h3 id="functionalitati-produs">1.1 Functionalities</h3>
+            <p>
+               Regular users of the application will be able to read different articles/blogs about recycling and other related subjects, 
+               will be able to find out where they can recycle different objects that they want to based on the material that is made of
+               and also based on their location they will recieve a map of the nearest recycling center.
+               Admin will be able to find the shortest and most efficient path to collect the garbage with a garbage disposal truck from
+               different collecting points, besides being able to modify content of pages. 
+            </p>
+            <h3 id="categorii">1.2 Categories of users</h3>
+            <p>
+                The application can be used by anyone who is familiar with a smartphone with android.
+            </p>
+            <h3 id="mediu">1.3 Operating environment</h3>
+            <p>
+                recycleIT is an android application that uses Kotlin for it`s functionalities making it runnable on every smartphone 
+                that with android.
+            </p>
+        </section>
+
+        <section typeof="sa:MaterialsAndMethods" role="doc-chapter">
+            <h2 id="cerinte-ext">External requirements</h2>
+            <h3 id="interfata-utilizator">1.1 User interface</h3>
+            <p> Connect page </p>
+            <img src="page1.png" alt="form_client" style="width:200px;">
+            <p> Main page </p>
+            <img src="page2.png" alt="form_client" style="width:200px;">
+            <p> Contact form </p>
+            <img src="page3.png" alt="form_client" style="width:200px;">
+            <p> Get material of object and location page </p>
+            <img src="page4.png" alt="form_client" style="width:200px;">
+            <p> Recycling center found map page </p>
+            <img src="page5.png" alt="form_client" style="width:200px;">
+        </section>
+
+        <section typeof="sa:MaterialsAndMethods" role="doc-chapter">
+            <h2 id="functionalitati">Functionalities</h2>
+            <h3 id="conn">1.1 Connect with email</h3>
+            <p>
+                The user will provide the email address that they have so we are going to keep him/her updated about future content.
+            </p>
+            <h3 id="earthblogs">1.2 Blogs reading</h3>
+            <p>
+                After the user connected a new page will open and if he selects Earth Blogs he will be redirected to another page where he
+                can choose to read a blog from a list.
+            </p>
+            <h3 id="recycle">1.3 Finding out where the user can recycle</h3>
+            <p>
+               From the main page the user can select the recycle button. After that a new page will appear where he will select the
+               material that he wants to recycle, he will provide thier location and will press the Let`s recycle IT button. This way
+               a map with the exact location of the nearest recycling center will be shown along side the working hours 
+               when the user can go to that recycling center.
+            </p>
+            <h3 id="contact">1.4 Contact form</h3>
+            <p>
+                Users will be able to reach the admin of the application for future problems or questions.
+            </p>
+            <h3 id="shortpath">1.5 Admin - Finding the most efficient and short path for garbage disposal trucks</h3>
+            <p>
+                After giving all the information needed a map will be shown with the shortest and most efficient path for garbage 
+                disposal trucks to follow for colecting.
+            </p>
+        </section>
+        <section typeof="sa:ReferenceList" role="doc-bibliography">
+            <h2 id="bibliografie">Bibliography</h2>
+            <ol>
+                <li property="schema:citation" role="doc-biblioentry" typeof="schema:WebPage"
+                    resource="https://w3c.github.io/scholarly-html/">
+                    <cite property="schema:name">
+                        <a href="https://w3c.github.io/scholarly-html/">Scholarly HTML</a>
+                    </cite>
+                </li>
+                <li property="schema:citation" role="doc-biblioentry" typeof="schema:WebPage"
+                    resource="https://schema.org/Person">
+                    <cite property="schema:name">
+                        <a href="https://schema.org/Person">Scholarly Person</a>
+                    </cite>
+                </li>
+            </ol>
+        </section>
+    </article>
+</body>
+
+</html>
