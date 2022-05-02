@@ -1,0 +1,29 @@
+QOC (question, options, criteria)
+
+1. 
+	q = how will we get users address?
+	o = automatically, manual (the user will type it)
+	c = the task should be as easy and intuitive as it can
+	A hybrid version is used: the user has the option to
+give his address automatically, but he can also type it and
+it will be corrected if needed.
+
+2.
+	q = how will we know where should the user go to recycle
+his trash?
+	o = let him tell us (input form), give him all the
+materials known to be recyclable and let him choose
+	c = should be easy to implement
+	Using a dropdown selector is easy to implement and 
+easy to interact with.
+
+3. 
+	q = how will the user be notified about future content?
+	o = make him create an account, only ask for email
+	c = this process should not take too long else the 
+user might lose interest
+	Only asking for the email make the process go faster
+and easier, the user does not have to go trough the painful
+process of creating an account with password and other stuff,
+especially because there is no personalized content for each
+user.
